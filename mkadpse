@@ -3,7 +3,7 @@
 #VARIABLES===============================#
 BB=/data/adb/magisk/busybox
 CLOG=/data/media/0/YourSEchanges.log
-BRANCH="1-Normal_Enhancement_Boost"
+BRANCH="2-Xtreme_Enhancement_Boost"
 #=======================================#
 #=======================================#
 
@@ -15,10 +15,10 @@ sleep 2
 
 $BB mkdir /data/media/0/mkadpse
 
-$BB wget https://github.com/DevMohitash/7SEB/raw/1-Normal_Enhancement_Boost/dolby/normal/dax_sqlite3.db -P /data/media/0/mkadpse
+$BB wget https://github.com/DevMohitash/7SEB/raw/1-Normal_Enhancement_Boost/dolby/xtreme/dax_sqlite3.db -P /data/media/0/mkadpse
 $BB cp -rf /data/media/0/mkadpse/dax_sqlite3.db /data/vendor/dolby/dax_sqlite3.db
 
-$BB wget https://github.com/DevMohitash/7SEB/raw/1-Normal_Enhancement_Boost/spkr/normal/sound_tuner.db -P /data/media/0/mkadpse
+$BB wget https://github.com/DevMohitash/7SEB/raw/1-Normal_Enhancement_Boost/spkr/xtreme/sound_tuner.db -P /data/media/0/mkadpse
 $BB cp -rf /data/media/0/mkadpse/sound_tuner.db /data/data/com.oneplus.sound.tuner/databases/sound_tuner.db
 
 $BB wget https://raw.githubusercontent.com/DevMohitash/7SEB/1-Normal_Enhancement_Boost/mixer/mixer_paths_tavil.xml -P /data/media/0/mkadpse
@@ -30,7 +30,7 @@ kmsg3 $(date)
 kmsg3
 
 kmsg3 $(date) 
-kmsg3 "Normal Enhanced Boost Mode"
+kmsg3 "Xtreme Enhanced Boost Mode"
 kmsg3 "Activated"
 kmsg3 "----"
 
