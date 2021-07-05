@@ -22,7 +22,7 @@ $BB wget https://github.com/DevMohitash/7SEB/raw/1-Normal_Enhancement_Boost/spkr
 #$BB cp -rf /data/media/0/mkadpse/sound_tuner.db /data/data/com.oneplus.sound.tuner/databases/sound_tuner.db
 
 $BB wget https://raw.githubusercontent.com/DevMohitash/7SEB/1-Normal_Enhancement_Boost/mixer/mixer_paths_tavil.xml -P /data/media/0/mkadpse
-#$BB cp -rf /data/media/0/mkadpse/mixer_paths_tavil.xml /vendor/etc/mixer_paths_tavil.xml
+$BB cp -rf /data/media/0/mkadpse/mixer_paths_tavil.xml /vendor/etc/mixer_paths_tavil.xml
 
 #$BB rm -rf /data/media/0/mkadpse
 
