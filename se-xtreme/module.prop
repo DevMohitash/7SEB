@@ -1,0 +1,6 @@
+id=se-extremehelper
+name=SE Xtreme Helper
+version=v1.4
+versionCode=14
+author=Mohitash
+description=This module is a part of SE Xtreme (Sound Enhancement Xtreme). This module contains modified Mixer XML file. Main work is done within database in /data by SE-XTREME App.
