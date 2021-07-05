@@ -8,13 +8,10 @@ BRANCH="4-Revert_To_Stock"
 
 sleep 2
 
-$BB mkdir /data/media/0/mkadpse
-
 $BB rm -rf /data/vendor/dolby/dax_sqlite3.db
 
 $BB rm -rf /data/data/com.oneplus.sound.tuner/databases/sound_tuner.db
 
-$BB rm -rf /data/media/0/mkadpse
 $BB rm -rf /data/adb/modules/se-xtreme
 
 $BB rm -rf /data/media/0/YourSEchanges.log
