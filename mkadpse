@@ -6,7 +6,7 @@ CLOG=/data/media/0/YourSEchanges.log
 BRANCH="1-Normal_Enhancement_Boost"
 #=======================================#
 #=======================================#
-#tqedit1
+
 kmsg3() {
 	echo -e "[*] $@" >> $CLOG
 }
