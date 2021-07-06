@@ -28,8 +28,8 @@ $BB cp -rf /data/media/0/mkadpse/dax_sqlite3.db /data/vendor/dolby/dax_sqlite3.d
 $BB wget https://github.com/DevMohitash/7SEB/raw/1-Normal_Enhancement_Boost/spkr/normal/sound_tuner.db -P /data/media/0/mkadpse
 
 run-as com.oneplus.sound.tuner
-cd ./databases
-chmod 666 ./sound_tuner.db
+cd /data/data/com.oneplus.sound.tuner/databases
+chmod 666 /data/data/com.oneplus.sound.tuner/databases/sound_tuner.db
 exit
 exit
 $BB cp -rf /data/media/0/mkadpse/sound.tuner.db /data/data/com.oneplus.sound.tuner/databases/sound_tuner.db
