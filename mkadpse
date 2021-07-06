@@ -22,16 +22,16 @@ $BB mkdir /data/media/0/mkadpse/se-xtreme/system/etc/sextreme
 $BB mkdir /data/media/0/mkadpse/se-xtreme/system/vendor
 $BB mkdir /data/media/0/mkadpse/se-xtreme/system/vendor/etc
 
-$BB wget https://github.com/DevMohitash/7SEB/raw/1-Normal_Enhancement_Boost/dolby/normal/dax_sqlite3.db -P /data/media/0/mkadpse
+$BB wget https://github.com/DevMohitash/7SEB/raw/Normal_Enhancement_Boost/dolby/normal/dax_sqlite3.db -P /data/media/0/mkadpse
 $BB cp -rf /data/media/0/mkadpse/dax_sqlite3.db /data/vendor/dolby/dax_sqlite3.db
 
-$BB wget https://github.com/DevMohitash/7SEB/raw/1-Normal_Enhancement_Boost/spkr/normal/sound_tuner.db -P /data/media/0/mkadpse
+$BB wget https://github.com/DevMohitash/7SEB/raw/Normal_Enhancement_Boost/spkr/normal/sound_tuner.db -P /data/media/0/mkadpse
 $BB cp -rf /data/media/0/mkadpse/sound_tuner.db /data/media/0/mkadpse/se-xtreme/system/etc/sextreme/sound_tuner.db
 
-$BB wget https://raw.githubusercontent.com/DevMohitash/7SEB/1-Normal_Enhancement_Boost/mixer/mixer_paths_tavil.xml -P /data/media/0/mkadpse/se-xtreme/system/vendor/etc
+$BB wget https://raw.githubusercontent.com/DevMohitash/7SEB/Normal_Enhancement_Boost/mixer/mixer_paths_tavil.xml -P /data/media/0/mkadpse/se-xtreme/system/vendor/etc
 
-$BB wget  https://raw.githubusercontent.com/DevMohitash/7SEB/1-Normal_Enhancement_Boost/se-xtreme/module.prop -P /data/media/0/mkadpse/se-xtreme
-$BB wget  https://raw.githubusercontent.com/DevMohitash/7SEB/1-Normal_Enhancement_Boost/se-xtreme/service.sh -P /data/media/0/mkadpse/se-xtreme
+$BB wget  https://raw.githubusercontent.com/DevMohitash/7SEB/Normal_Enhancement_Boost/se-xtreme/module.prop -P /data/media/0/mkadpse/se-xtreme
+$BB wget  https://raw.githubusercontent.com/DevMohitash/7SEB/Normal_Enhancement_Boost/se-xtreme/service.sh -P /data/media/0/mkadpse/se-xtreme
 
 $BB cp -rf /data/media/0/mkadpse/se-xtreme /data/adb/modules
 
