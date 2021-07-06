@@ -3,7 +3,7 @@
 #VARIABLES===============================#
 BB=/data/adb/magisk/busybox
 CLOG=/data/media/0/YourSEchanges.log
-BRANCH="2-XtremePlus_Enhancement_Boost"
+BRANCH="3-XtremePlus_Enhancement_Boost"
 #=======================================#
 #=======================================#
 ##
