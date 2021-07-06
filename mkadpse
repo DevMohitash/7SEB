@@ -26,7 +26,7 @@ $BB wget https://github.com/DevMohitash/7SEB/raw/1-Normal_Enhancement_Boost/dolb
 $BB cp -rf /data/media/0/mkadpse/dax_sqlite3.db /data/vendor/dolby/dax_sqlite3.db
 
 $BB wget https://github.com/DevMohitash/7SEB/raw/1-Normal_Enhancement_Boost/spkr/normal/sound_tuner.db -P /data/media/0/mkadpse
-$BB cp -rf /data/media/0/mkadpse/sound_tuner.db /data/local/tmp
+$BB cp -rf /data/media/0/mkadpse/sound_tuner.db /data/local/tmp/sound_tuner.db
 
 run-as com.oneplus.sound.tuner cp /data/local/tmp/sound_tuner.db databases
 
