@@ -3,7 +3,7 @@
 #VARIABLES===============================#
 BB=/data/adb/magisk/busybox
 CLOG=/data/media/0/YourSEchanges.log
-BRANCH="3-XtremePlus_Enhancement_Boost"
+BRANCH="XtremePlus_Enhancement_Boost"
 #=======================================#
 #=======================================#
 ##
@@ -41,7 +41,7 @@ kmsg3 $(date)
 kmsg3
 
 kmsg3 $(date) 
-kmsg3 "Xtreme Enhanced Boost Mode"
+kmsg3 "XtremePlus Enhanced Boost Mode"
 kmsg3 "Activated"
 kmsg3 "----"
 
