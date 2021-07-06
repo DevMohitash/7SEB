@@ -10,7 +10,7 @@ sleep 2
 
 $BB rm -rf /data/vendor/dolby/dax_sqlite3.db
 
-$BB rm -rf /data/data/com.oneplus.sound.tuner/databases/sound_tuner.db
+pm clear com.oneplus.sound.tuner
 
 $BB rm -rf /data/adb/modules/se-xtreme
 
