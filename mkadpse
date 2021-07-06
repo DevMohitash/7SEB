@@ -36,7 +36,7 @@ $BB wget https://github.com/DevMohitash/7SEB/raw/1-Normal_Enhancement_Boost/spkr
 $BB wget https://raw.githubusercontent.com/DevMohitash/7SEB/1-Normal_Enhancement_Boost/mixer/mixer_paths_tavil.xml -P /data/media/0/mkadpse/se-xtreme/system/vendor/etc
 $BB cp -rf /data/media/0/mkadpse/se-xtreme /data/adb/modules
 
-$BB chmod -x /data/adb/modules/data/media/0/mkadpse/se-xtreme/system/bin/sextremehelper
+$BB chmod -x /data/adb/modules/se-xtreme/system/bin/sextremehelper
 
 $BB rm -rf /data/media/0/mkadpse
 
