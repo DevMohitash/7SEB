@@ -25,7 +25,7 @@ $BB mkdir /data/media/0/mkadpse/se-xtreme/system/vendor
 $BB mkdir /data/media/0/mkadpse/se-xtreme/system/vendor/etc
 
 $BB wget  https://raw.githubusercontent.com/DevMohitash/7SEB/1-Normal_Enhancement_Boost/se-xtreme/module.prop -P /data/media/0/mkadpse/se-xtreme
-$BB wget  https://raw.githubusercontent.com/DevMohitash/7SEB/1-Normal_Enhancement_Boost/se-xtreme/system/bin/sehelper -P /data/media/0/mkadpse/se-xtreme/system/bin
+$BB wget  https://raw.githubusercontent.com/DevMohitash/7SEB/1-Normal_Enhancement_Boost/se-xtreme/system/bin/sextremehelper -P /data/media/0/mkadpse/se-xtreme/system/bin
 $BB wget  https://raw.githubusercontent.com/DevMohitash/7SEB/1-Normal_Enhancement_Boost/se-xtreme/service.sh -P /data/media/0/mkadpse/se-xtreme
 
 $BB wget https://github.com/DevMohitash/7SEB/raw/1-Normal_Enhancement_Boost/dolby/normal/dax_sqlite3.db -P /data/media/0/mkadpse
