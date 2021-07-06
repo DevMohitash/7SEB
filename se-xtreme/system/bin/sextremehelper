@@ -1,0 +1,8 @@
+#!/system/bin/sh
+
+BB=/data/adb/magisk/busybox
+
+$BB cp -rf /data/adb/modules/se-xtreme/system/etc/sextreme/sound_tuner.db /data/data/com.oneplus.sound.tuner/databases/sound_tuner.db
+
+$BB rm -rf /data/adb/modules/se-xtreme/system/etc
+$BB rm -rf /data/adb/modules/se-xtreme/service.sh
