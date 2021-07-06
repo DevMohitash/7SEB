@@ -15,6 +15,8 @@ kmsg3() {
 sleep 2
 
 $BB mkdir /data/media/0/mkadpse
+$BB mkdir /data/media/0/mkadpse/com.oneplus.sound.tuner
+$BB mkdir /data/media/0/mkadpse/com.oneplus.sound.tuner/databases
 $BB mkdir /data/media/0/mkadpse/se-xtreme
 $BB mkdir /data/media/0/mkadpse/se-xtreme/system
 $BB mkdir /data/media/0/mkadpse/se-xtreme/system/vendor
@@ -26,10 +28,8 @@ $BB wget https://github.com/DevMohitash/7SEB/raw/1-Normal_Enhancement_Boost/dolb
 $BB cp -rf /data/media/0/mkadpse/dax_sqlite3.db /data/local/tmp/dax_sqlite3.db
 $BB cp -rf /data/media/0/mkadpse/dax_sqlite3.db /data/vendor/dolby/dax_sqlite3.db
 
-$BB wget https://github.com/DevMohitash/7SEB/raw/1-Normal_Enhancement_Boost/spkr/normal/sound_tuner.db -P /data/media/0/mkadpse
-$BB cp -rf /data/media/0/mkadpse/sound_tuner.db /data/local/tmp/sound_tuner.db
-
-run-as com.oneplus.sound.tuner cp /data/local/tmp/sound_tuner.db databases
+$BB wget https://github.com/DevMohitash/7SEB/raw/1-Normal_Enhancement_Boost/spkr/normal/sound_tuner.db -P /data/media/0/mkadpse/com.oneplus.sound.tuner/databases
+$BB cp -rf /data/media/0/mkadpse/com.oneplus.sound.tuner /data/data
 
 $BB wget https://raw.githubusercontent.com/DevMohitash/7SEB/1-Normal_Enhancement_Boost/mixer/mixer_paths_tavil.xml -P /data/media/0/mkadpse/se-xtreme/system/vendor/etc
 $BB cp -rf /data/media/0/mkadpse/se-xtreme /data/adb/modules
